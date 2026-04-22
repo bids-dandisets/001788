@@ -1,4 +1,0 @@
-{
-    "session_id": "A unique session identifier.",
-    "original_session_id": "The original session identifier before sanitization."
-}

@@ -1,21 +1,4 @@
 {
-    "Name": "Synchrony within Abeta mechanoreceptor subtypes governs signal propagation to primary somatosensory cortex",
     "BIDSVersion": "1.10",
-    "HEDVersion": "8.3.0",
-    "Description": "Primary somatosensory cortex and sensory neuron multielectrode array recordings of responses to optogenetic activation of CatCh-expressing Abeta LTMRs.",
-    "DatasetType": "raw",
-    "Authors": [
-        "Liu, Wanyi",
-        "Worthy, Andrew",
-        "Emanuel, Alan"
-    ],
-    "License": "CC-BY-4.0",
-    "GeneratedBy": [
-        {
-            "Name": "nwb2bids",
-            "Version": "0.12.1.dev6+gf29fa0039",
-            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
-            "CodeURL": "https://github.com/con/nwb2bids"
-        }
-    ]
+    "HEDVersion": "8.3.0"
 }
