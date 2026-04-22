@@ -1,0 +1,107 @@
+	[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.
+		License
+		/dataset_description.json - Field description: The license for the dataset.
+The use of license name abbreviations is RECOMMENDED for specifying a license
+(see [Licenses](SPEC_ROOT/appendices/licenses.md)).
+The corresponding full license text MAY be specified in an additional
+`LICENSE` file.
+
+
+		GeneratedBy
+		/dataset_description.json - Field description: Used to specify provenance of the dataset.
+
+
+		SourceDatasets
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include `"URL"`, `"DOI"` (see
+[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and
+`"Version"` with
+[string](https://www.w3schools.com/js/js_json_datatypes.asp)
+values.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] NO_AUTHORS The Authors field of dataset_description.json should contain an array of fields -
+with one author per field. This was triggered because there are no authors, which
+will make DOI registration from dataset metadata impossible.
+
+		Authors
+		/dataset_description.json - Field description: List of individuals who contributed to the creation/curation of the dataset.
+
+
+	Please visit https://neurostars.org/search?q=NO_AUTHORS for existing conversations about this issue.
+
+	[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.
+		StimulusPresentation
+		/sub-BPV5/ecephys/sub-BPV5_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+		/sub-BPV4/ses-250912+BPV4+day1/ecephys/sub-BPV4_ses-250912+BPV4+day1_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+
+		14 more files with the same issue
+
+		Manufacturer
+		/sub-BPV5/ecephys/sub-BPV5_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+		/sub-BPV4/ses-250912+BPV4+day1/ecephys/sub-BPV4_ses-250912+BPV4+day1_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+
+		14 more files with the same issue
+
+		RecordingType
+		/sub-BPV5/ecephys/sub-BPV5_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+		/sub-BPV4/ses-250912+BPV4+day1/ecephys/sub-BPV4_ses-250912+BPV4+day1_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+
+		14 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] TSV_COLUMN_TYPE_REDEFINED A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored.
+		x
+		/sub-BPV5/ecephys/sub-BPV5_electrodes.json - Format "string" must be number
+		/sub-BPV4/ses-250912+BPV4+day1/ecephys/sub-BPV4_ses-250912+BPV4+day1_electrodes.json - Format "string" must be number
+
+		14 more files with the same issue
+
+		y
+		/sub-BPV5/ecephys/sub-BPV5_electrodes.json - Format "string" must be number
+		/sub-BPV4/ses-250912+BPV4+day1/ecephys/sub-BPV4_ses-250912+BPV4+day1_electrodes.json - Format "string" must be number
+
+		14 more files with the same issue
+
+		impedance
+		/sub-BPV5/ecephys/sub-BPV5_electrodes.json - Format "string" must be number
+		/sub-BPV4/ses-250912+BPV4+day1/ecephys/sub-BPV4_ses-250912+BPV4+day1_electrodes.json - Format "string" must be number
+
+		14 more files with the same issue
+
+		sampling_frequency
+		/sub-BPV5/ecephys/sub-BPV5_channels.json - Format "string" must be number
+		/sub-BPV4/ses-250912+BPV4+day1/ecephys/sub-BPV4_ses-250912+BPV4+day1_channels.json - Format "string" must be number
+
+		14 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=TSV_COLUMN_TYPE_REDEFINED for existing conversations about this issue.
+
+	[ERROR] JSON_KEY_REQUIRED A JSON flle is missing a key listed as required.
+		Name
+		/dataset_description.json - Field description: Name of the dataset.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_REQUIRED for existing conversations about this issue.
+
+
+          Summary:                           Available Tasks:        Available Modalities:
+          161 Files, 726 kB                                          microephys           
+          10 - Subjects 11 - Sessions                                                     
+
+	If you have any questions, please post on https://neurostars.org/tags/bids.
